@@ -3,11 +3,11 @@
 # -- CARLA Variables ----------------------------------------------------------
 # ==============================================================================
 
-IMAGE_WIDTH = 1280
-IMAGE_HEIGHT = 720
+IMAGE_WIDTH = 640
+IMAGE_HEIGHT = 480
 FPS = 20
 FOV = 90.0
-CARLA_TOWN = 'Town03_Opt'
+CARLA_TOWN = 'Town04_Opt'
 
 # Save images and labels on disk
 isSaving = True
@@ -25,7 +25,7 @@ number_of_images = 100
 # Total number of .npy files
 total_number_of_imagesets = 100
 # Vertical startposition of the lanepoints in the 2D-image
-row_anchor_start = 160
+row_anchor_start = 210
 # Number of images after agent is respawned
 images_until_respawn = 350
 # Distance between the calculated lanepoints
